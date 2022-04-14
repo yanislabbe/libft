@@ -10,7 +10,7 @@
 
 ### À propos
 
-- Créez votre propre bibliothèque contenant des fonctions utiles pour la suite de votre cursus.
+Créez votre propre bibliothèque contenant des fonctions utiles pour la suite de votre cursus.
 
 ### Considérations techniques
 
@@ -24,9 +24,9 @@
 
 ### Partie 1 - Fonctions de la libc
 
-- Dans cette première partie, vous devez recoder un ensemble de fonctions de la libc telles que décrites dans leur man respectif sur votre système. Vos fonctions devront avoir exactement le même prototype et le même comportement que les originales. Seule différence, leur nom devra être préfixé par 'ft_fonctions'. Ainsi strlen devient ft_strlen.
+Dans cette première partie, vous devez recoder un ensemble de fonctions de la libc telles que décrites dans leur man respectif sur votre système. Vos fonctions devront avoir exactement le même prototype et le même comportement que les originales. Seule différence, leur nom devra être préfixé par 'ft_fonctions'. Ainsi strlen devient ft_strlen.
 
-- Vous devez recoder les fonctions suivantes. Elles ne nécessitent aucune fonction externe:
+Vous devez recoder les fonctions suivantes. Elles ne nécessitent aucune fonction externe:
 
 - [`isalpha`](http://manpagesfr.free.fr/man/man3/isalpha.3.html)
 - [`isdigit`](http://manpagesfr.free.fr/man/man3/isalpha.3.html)
@@ -50,20 +50,21 @@
 - [`strnstr`](https://www.freebsd.org/cgi/man.cgi?query=strnstr&sektion=3)
 - [`atoi`](http://manpagesfr.free.fr/man/man3/atoi.3.html)
 
-- Pour les deux fonctions suivantes, vous pourrez faire appel à la fonction mallo() :
+
+Pour les deux fonctions suivantes, vous pourrez faire appel à la fonction malloc() :
 
 - [`calloc`](http://manpagesfr.free.fr/man/man3/malloc.3.html)
 - [`strdup`](http://manpagesfr.free.fr/man/man3/strdup.3.html)
 
 ### Partie 2 - Fonctions supplémentaires
 
-- Dans cette seconde partie, vous devrez implémenter un certain nombre de fonctions absentes de la libc, ou qui y sont mais sous une forme différente.
+Dans cette seconde partie, vous devrez implémenter un certain nombre de fonctions absentes de la libc, ou qui y sont mais sous une forme différente.
 
 - [`Fonctions supplémentaires`](https://github.com/yanislabbe/libft/blob/main/sujet.pdf)
 
 ### Partie bonus
 
-- Implémentez les fonctions suivantes afin de manipuler vos listes aisément.
+Implémentez les fonctions suivantes afin de manipuler vos listes aisément.
 
 - [`Fonctions bonus`](https://github.com/yanislabbe/libft/blob/main/sujet.pdf)
 
